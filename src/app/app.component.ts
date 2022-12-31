@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	title = 'Home-Dash';
-	currentDate = new Date();
-
+	Date = new Date();
+	currentDate = this.Date.toDateString()
 }
